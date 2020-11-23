@@ -1,0 +1,67 @@
+import matplotlib.style # ggplotスタイルを指定
+matplotlib.style.use("ggplot")
+x = [1, 2, 3]
+y = [2, 4, 9]
+plt.plot(x,y)
+plt.title("MATLAB-like")
+plt.show()
+
+import matplotlib.style # defaultスタイルを指定 
+matplotlib.style.use("default")
+x = [1, 2, 3]
+y = [2, 4, 9]
+fig, ax = plt.subplots()
+ax.plot(x,y)
+ax.set_title("default-style")
+plt.show()
+
+import matplotlib.style # bmhスタイルを指定 
+matplotlib.style.use("bmh")
+x = [1, 2, 3]
+y = [2, 4, 9]
+fig, ax = plt.subplots()
+ax.plot(x,y)
+ax.set_title("bmh-style")
+plt.show()
+
+import matplotlib.style #dark_background スタイルを指定 #白い背景は涙が出るので黒い背景が目に優しい
+matplotlib.style.use("dark_background")
+x = [1, 2, 3]
+y = [2, 4, 9]
+fig, ax = plt.subplots()
+ax.plot(x,y)
+ax.set_title("dark_background")
+plt.show()
+
+import matplotlib.style # fivethirtyeightスタイルを指定 
+matplotlib.style.use("fivethirtyeight")
+x = [1, 2, 3]
+y = [2, 4, 9]
+fig, ax = plt.subplots()
+ax.plot(x,y)
+ax.set_title("fivethirtyeight")
+plt.show()
+
+fig, ax = plt.subplots()
+x1 = [1,2,3]
+y1 = [6,4,9]
+y2 = [5,8,6]
+
+#width = 0.4
+
+labels = ['red', 'green', 'blue']
+y_total = [num1 + num2 for num1, num2 in zip(y1,y2)]
+ax. bar (x1, y1, width=width, label="2020")
+
+ax. bar (x2, y2, width=width, label="2030")
+
+ax.legend(loc="best")
+
+plt,xticks([1.2, 2.2, 3.2],labels)
+plt.show()
+
+#fig.savefig("sample-figure.png")
+
+fig, axes = plt.subplots(2, 2)
+plt.show()
+
