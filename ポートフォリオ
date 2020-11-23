@@ -1,67 +1,35 @@
-import matplotlib.style # ggplotスタイルを指定
-matplotlib.style.use("ggplot")
-x = [1, 2, 3]
-y = [2, 4, 9]
-plt.plot(x,y)
-plt.title("MATLAB-like")
-plt.show()
+https://colab.research.google.com/drive/1GStVM2CG_e5AIU7sgcElPkEgIPiYsCh1?usp=sharing
 
-import matplotlib.style # defaultスタイルを指定 
-matplotlib.style.use("default")
-x = [1, 2, 3]
-y = [2, 4, 9]
-fig, ax = plt.subplots()
-ax.plot(x,y)
-ax.set_title("default-style")
-plt.show()
+https://colab.research.google.com/drive/1aMbuZfvpulShf_9eMAxNlQhNu3NVQnZt?usp=sharing
 
-import matplotlib.style # bmhスタイルを指定 
-matplotlib.style.use("bmh")
-x = [1, 2, 3]
-y = [2, 4, 9]
-fig, ax = plt.subplots()
-ax.plot(x,y)
-ax.set_title("bmh-style")
-plt.show()
+https://colab.research.google.com/drive/1CrkMf3D5eMKll0KEQdMPdeZxxrhzD2hq?usp=sharing
 
-import matplotlib.style #dark_background スタイルを指定 #白い背景は涙が出るので黒い背景が目に優しい
-matplotlib.style.use("dark_background")
-x = [1, 2, 3]
-y = [2, 4, 9]
-fig, ax = plt.subplots()
-ax.plot(x,y)
-ax.set_title("dark_background")
-plt.show()
+https://colab.research.google.com/drive/1Tt3OtAbBY2_HBEEb5_piffxokibbCTyy?usp=sharing
 
-import matplotlib.style # fivethirtyeightスタイルを指定 
-matplotlib.style.use("fivethirtyeight")
-x = [1, 2, 3]
-y = [2, 4, 9]
-fig, ax = plt.subplots()
-ax.plot(x,y)
-ax.set_title("fivethirtyeight")
-plt.show()
+https://colab.research.google.com/drive/1C06kutPfiwkDX3hXNtX71VdmdnLYLhst?usp=sharing
 
-fig, ax = plt.subplots()
-x1 = [1,2,3]
-y1 = [6,4,9]
-y2 = [5,8,6]
+https://colab.research.google.com/drive/1VIS_nxVIqYiT6q1ptnzQJNpgFg4DY32G?usp=sharing
 
-#width = 0.4
+https://colab.research.google.com/drive/1LpRKa5Uj6RaJDX2FBNQOrzBqi-rdBBsz?usp=sharing
 
-labels = ['red', 'green', 'blue']
-y_total = [num1 + num2 for num1, num2 in zip(y1,y2)]
-ax. bar (x1, y1, width=width, label="2020")
+https://colab.research.google.com/drive/1mY1MGJ518M9GfhMSiL64fWGOgJ5WK5uK?usp=sharing
 
-ax. bar (x2, y2, width=width, label="2030")
+https://colab.research.google.com/drive/1eK0c9LX5IhYHZxPjxfxByoHpVZtJ2m0o?usp=sharing
 
-ax.legend(loc="best")
+https://colab.research.google.com/drive/1ZKhcZXmufcYJ95bJQ-_TDvnXZGF3sscj?usp=sharing
 
-plt,xticks([1.2, 2.2, 3.2],labels)
-plt.show()
+https://colab.research.google.com/drive/1Aseb_kI1q1P6KYkcAxBWGEhuhCVqBvzd?usp=sharing
 
-#fig.savefig("sample-figure.png")
+https://colab.research.google.com/drive/1ypgCxPjkSL2dbgSE0a5QrbPhxVL50uon?usp=sharing
 
-fig, axes = plt.subplots(2, 2)
-plt.show()
+https://colab.research.google.com/drive/1P_Vv0tukt2N88uWHN1c5A2SDitft850T?usp=sharing
 
+https://colab.research.google.com/drive/1KRJrJ2JnoGAgqyo4NbXn4wu2eDo3lOrB?usp=sharing
+
+https://colab.research.google.com/drive/1uZJ8bIC662j38XDJFOA6JC7Y77wsxzqo?usp=sharing
+
+https://colab.research.google.com/drive/15LsHBmnu_kCvT04bGGXzt9CXhWXpgnEP?usp=sharing
+
+https://colab.research.google.com/drive/1rKTwM2wVEJ0AIOF5mDtpWK3616CGsWOk?usp=sharing
+
+https://colab.research.google.com/drive/1WOodKw9iCEQlQSJrOZfXKE6q_hMMDfTw?usp=sharing
